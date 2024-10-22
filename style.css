@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@media screen and (width < 800px) {
+    h2{
+        color: aqua;
+    }
+}
+@media screen and (width >= 800px) {
+    h2{
+        color: chocolate;
+    }
+}
